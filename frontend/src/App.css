@@ -1,0 +1,77 @@
+.app {
+  min-height: 100vh;
+  background: #dfeff0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  width: 380px;
+  max-height: 90vh;
+  overflow-y: auto;
+  background: #e4f1f1;
+  padding: 30px;
+  text-align: center;
+  border-radius: 18px;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+  color: #287f7b;
+  font-size: 46px;
+}
+
+h2 {
+  color: #287f7b;
+}
+
+.subtitle {
+  margin-bottom: 30px;
+}
+
+p {
+  color: #222;
+  font-size: 15px;
+}
+
+input {
+  width: 90%;
+  padding: 14px;
+  margin: 20px 0;
+  border: 1px solid #555;
+  border-radius: 8px;
+  font-size: 16px;
+  background: white;
+  color: black;
+}
+
+button {
+  width: 90%;
+  padding: 12px;
+  margin: 10px auto;
+  display: block;
+  background: #3b827b;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #28635e;
+}
+
+.history-list {
+  max-height: 420px;
+  overflow-y: auto;
+}
+
+.history-item {
+  background: white;
+  padding: 12px;
+  margin: 12px 0;
+  border-radius: 10px;
+  text-align: left;
+}
