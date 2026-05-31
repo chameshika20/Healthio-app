@@ -8,7 +8,7 @@ function App() {
   const [result, setResult] = useState(null);
   const [history, setHistory] = useState([]);
 
-  const API_URL = "";
+  const API_URL = "/api";
 
   const analyseFood = (food) => {
     const name = food.toLowerCase();
